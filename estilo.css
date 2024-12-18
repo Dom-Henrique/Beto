@@ -1,10 +1,20 @@
 body {
-    background-color: black;
+    background-image: url(https://opengameart.org/sites/default/files/4_81.png);
+    background-repeat:no-repeat;
+    background-size: cover;
     color: white;
     text-align: justify;
-    font-size: 20px;
-    padding: 40px;
+    font-size: 26px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+main{
+    padding: 40px;
+    margin: 30px;
 }
 
 h1 {
@@ -12,11 +22,44 @@ h1 {
     margin-top: 100px;
 }
 
-nav{
+nav {
+    background-color: rgb(110, 192, 236);
+    padding: 40px;
+    border-radius: 30px;
     text-align: center;
-    margin: 30px;
-    background: gray;
-    padding-top: 40px;
-    border-radius: 20px;
-    margin-inline: 220px;
+    /*
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; */
+    word-spacing: 300px;
+    font-size: 34px;
+}
+
+nav>a {
+    color: white;
+}
+
+footer {
+    background-color: rgb(110, 192, 236);
+    text-align: center;
+    padding: 10px;
+}
+
+#brad_dom {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+#brad_dom>img {
+    border: 10px solid rgb(110, 192, 236);
+    border-radius: 50px;
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brad_dom>p {
+    margin-top: 10px;
 }
