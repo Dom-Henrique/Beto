@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+main{
+    padding: 40px;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(110, 192, 236);
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    /*
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; */
+    word-spacing: 300px;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+figure>img{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: solid white 4px;
+}
+
+figure>iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: solid white 4px;
+}
+
+figure>figcaption{
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(110, 192, 236);
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+    }
+
+    main {
+        padding: 20px;
+        margin: 15px;
+        text-align: justify; /* Centraliza conteúdo adicional no celular */
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    nav {
+        padding: 20px;
+        word-spacing: normal;
+        font-size: 24px;
+    }
+
+    figure > img, figure > iframe {
+        width: 100%;
+        max-width: 400px;
+        height: auto; /* Garante proporção adequada */
+    }
+
+    footer {
+        background-color: rgb(110, 192, 236);
+        text-align: center;
+        padding: 10px;
+    }
+}

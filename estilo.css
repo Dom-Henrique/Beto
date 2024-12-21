@@ -45,6 +45,9 @@ footer {
     padding: 10px;
 }
 
+footer>a {
+    color: rgb(110, 192, 236);
+}
 #brad_dom {
     text-align: center;
     line-height: 50px;
@@ -60,6 +63,16 @@ footer {
     margin-right: auto;
 }
 
-#brad_dom>p {
+#casal>img {
+    border: 10px solid rgb(110, 192, 236);
+    border-radius: 50px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure>figcaption {
     margin-top: 10px;
+    text-align: center;
 }
